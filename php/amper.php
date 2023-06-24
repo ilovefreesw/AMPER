@@ -103,7 +103,7 @@ echo _make_it_rain($page->content());
 </article>
 </main>
 <footer class="ampstart-footer flex flex-column items-center px3 ">
-<center><a href="<?php echo $page->permalink(); ?>">View Full Version</a></center>
+<center><a href="<?php echo $page -> permalink(); ?>">View The Full Version</a></center>
 <small>
 <?php echo $site->title() . date(", Y"); ?>
 </small>
